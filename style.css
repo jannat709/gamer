@@ -1,0 +1,160 @@
+.logo{
+    width: 50px;
+    height: 25px;
+}
+.h2{
+    color: #3C354F;
+    font-size: 2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.hi{
+    color: #F948B2;
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+}
+.fv{
+    color: #F948B2;
+    text-shadow: 2px 2px 6px #8758F1;
+    font-size: 2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+p{
+    color: #3C354F;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h4{
+    color: #534C64;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.g{
+    color: #F948B2;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+    margin-left: 10px;
+}
+.h{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+}
+.h3{
+    font-size: 2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.h1{
+    color: #F948B2;
+    text-shadow: 2px 2px 6px #8758F1;
+    font-size: 4rem;
+}
+.nav{
+    margin: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav>ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+nav li a{
+    text-decoration: none;
+    color: #3C354F;
+}
+.icon{
+    justify-content: space-between;
+    padding: 5px;
+    size: 30px;
+    height: 20px;
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+.ban-con{
+    padding-top: 50px;
+    padding-left: 200px;
+}
+.ban-img{
+    width: 40%;
+    height: 50%;
+    padding-left: 100px;
+    padding-right: 50px;
+}
+.bp{
+    border: 0;
+    padding: 10px 25px;
+    border-radius: 15px;
+    color: #FFFFFF;
+    background-color: rgb(228, 64, 154);
+}
+.bb{
+    border: 0;
+    margin-left: 10px;
+    padding: 10px 25px;
+    border-radius: 15px;
+    color: #FFFFFF;
+    background-color: rgb(64, 159, 190);
+}
+.know{
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+.know-con{
+    text-align: end;
+    margin: 5px;
+    padding-right: 50px;
+    padding-top: 40px;
+}
+.img{
+    width: 80%;
+    padding: 5px;
+}
+.fun{
+    text-align: center;
+    margin:10px;
+    padding-top: 20px;
+}
+.fun-img{
+    display: flex;
+    justify-content: space-between;
+}
+.fun-image{
+    max-width: 100%;
+    padding: 2px;
+    margin-top: 15px;
+}
+.pi{
+    display: flex;
+    margin: 100px;
+    padding-left: 20%;
+}
+.pi-con{
+    text-align: end;
+    margin-right: 5%;
+    margin-top: 10%;
+    padding-right: 10%;
+}
+.pi-img{
+    max-width: 50%;
+}
+.pi-img2{
+    position: relative;
+    bottom: 300px;
+    right: 150px;
+    padding: 20px;
+}
