@@ -7,6 +7,26 @@
     font-size: 2rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+.hfoot{
+    color: #f5f5f5;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* h2{
+    color: #FFFFFF;
+} */
+.h5{
+    color: #3C354F;
+    padding: 2px;
+}
+.pc{
+    color: #FFFFFF;
+}
+.hc{
+    color: whitesmoke;
+}
+h5{
+    color:white;
+}
 .hi{
     color: #F948B2;
 
@@ -129,6 +149,9 @@ nav li a{
     margin:10px;
     padding-top: 20px;
 }
+.play{
+    justify-content: center;
+}
 .fun-img{
     display: flex;
     justify-content: space-between;
@@ -157,4 +180,111 @@ nav li a{
     bottom: 300px;
     right: 150px;
     padding: 20px;
+}
+.final-career{
+    display: flex;
+    background-color: #FF42A5;
+}
+.career{
+    text-align: start;
+    padding: 50px;
+}
+.Career-2{
+    display: flex;
+    text-align: start;
+    padding: 5px;
+}
+.career-3{
+    padding-left: 30%;
+
+}
+.career-img{
+    max-width: 60%;
+}
+.cbtn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0;
+    border-radius: 20px;
+    padding: 10px;
+    color: #F948B2;
+}
+.type-game{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+.type{
+    display: flex;
+    margin: 15px;
+}
+.type-game2{
+    display: flex;
+    padding-left: 5%;
+    text-align: start;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.footer{
+    background-color: #0B0223;
+    text-align: center;
+    padding: 50px;
+}
+.footer-con{
+    text-align: center;
+    
+}
+.item{
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    gap: 50px;
+}
+.end{
+    display: flex;
+    padding-left: 50px;
+    justify-content: center;
+    gap: 5%;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+.social-media{
+    fill:#f5f5f5;
+    size: 100px;
+}
+.type:hover{
+    border: 0.5px solid #F948B2;
+    padding: 0.5%;
+    border-radius: 50px;
+    color: #FF42A5;
+}
+.h5:hover{
+    color: #FF42A5;
+}
+.fun-image2 :hover{
+    border: 5px solid #F948B2;
+    border-radius: 22px;
+}
+@media screen and (max-width:576px) {
+    nav ,
+    .btn,
+    .ul,
+    .btn-icon,
+    .h,
+    .ban-con{
+        flex-direction: column;
+        text-align: center;
+    }
+    .btn-icon{
+        display: flex;
+        padding-left: 150px;
+    }
+    .bt{
+        display: flex;
+    }
 }
