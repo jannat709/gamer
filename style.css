@@ -11,9 +11,6 @@
     color: #f5f5f5;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-/* h2{
-    color: #FFFFFF;
-} */
 .h5{
     color: #3C354F;
     padding: 2px;
@@ -157,29 +154,25 @@ nav li a{
     justify-content: space-between;
 }
 .fun-image{
-    max-width: 100%;
     padding: 2px;
     margin-top: 15px;
 }
 .pi{
     display: flex;
-    margin: 100px;
-    padding-left: 20%;
+    padding-top: 50px;
 }
-.pi-con{
+.pi-con2{
+    padding-left: 15%;
+    padding-top: 10%;
     text-align: end;
-    margin-right: 5%;
-    margin-top: 10%;
-    padding-right: 10%;
 }
-.pi-img{
-    max-width: 50%;
+.pi-images{
+    padding-left: 25%;
 }
 .pi-img2{
     position: relative;
     bottom: 300px;
     right: 150px;
-    padding: 20px;
 }
 .final-career{
     display: flex;
@@ -199,7 +192,8 @@ nav li a{
 
 }
 .career-img{
-    max-width: 60%;
+    max-width: 800px;
+    height: 800px;
 }
 .cbtn{
     display: flex;
@@ -212,20 +206,15 @@ nav li a{
 }
 .type-game{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     padding-top: 50px;
 }
 .type{
+    width: 200px;
     display: flex;
     margin: 15px;
-}
-.type-game2{
-    display: flex;
-    padding-left: 5%;
-    text-align: start;
-    justify-content: center;
-    padding-bottom: 50px;
 }
 .footer{
     background-color: #0B0223;
@@ -274,17 +263,83 @@ nav li a{
     nav ,
     .btn,
     .ul,
+    .ban,
     .btn-icon,
     .h,
-    .ban-con{
+    .fun,
+    .fun-img,
+    .know,
+    .know-con,
+    .pi,
+    .pi-img,
+    .final-career,
+    .career-img{
         flex-direction: column;
         text-align: center;
     }
+    .ul{
+        gap: 15px;
+    }
     .btn-icon{
         display: flex;
-        padding-left: 150px;
+        padding-left: 125px;
     }
-    .bt{
-        display: flex;
+    .banner{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .ban-img{
+        width: 80%;
+        padding: 0;
+    }
+    .ban-con{
+        padding: 0;
+    }
+    .know-con{
+        padding: 0;
+    }
+    .img{
+        width: 100%;
+        padding-top: 100px;
+    }
+    .pi-con{
+        text-align: center;
+        padding: 0;
+    }
+    .pi-img{
+        max-width: 100%;
+    }
+    .pi-img2{
+        max-width: 50%;
+        position: relative;
+        bottom: 130px;
+        right: 150px;
+    }
+    .career-img{
+        width: 100%;
+        height: 100%;
+    }
+    .type{
+        width: fit-content;
+    }
+    .type-game{
+        display: grid;
+        grid-template-columns: repeat(3, 0.4fr);
+    }
+    .item{
+        display: grid;
+        grid-template-columns: repeat(3, 0.4fr);
+        gap: 0;
+    }
+    .social{
+        gap: 50px;
+    }
+    .end{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+    }
+    .end2{
+        justify-content: center;
     }
 }
