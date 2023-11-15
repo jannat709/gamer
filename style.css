@@ -146,16 +146,50 @@ nav li a{
     margin:10px;
     padding-top: 20px;
 }
-.play{
-    justify-content: center;
+.f-img{
+    width: 100%;
 }
 .fun-img{
     display: flex;
     justify-content: space-between;
 }
+.f-img2{
+    width: 100%;
+}
 .fun-image{
     padding: 2px;
     margin-top: 15px;
+}
+.fun-image2{
+    position: relative;
+    cursor: pointer;
+    display: block;
+}
+.play-icon{
+    background: rgba(0, 0, 0, 0.6);
+    color: #FFFFFF;
+    font-size: 50px;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.fun-image:hover .play-icon{
+    opacity: 1;
+}
+.fun-image2 :hover {
+    border: 5px solid #F948B2;
+    border-radius: 22px;
 }
 .pi{
     display: flex;
@@ -214,6 +248,7 @@ nav li a{
 .type{
     width: 200px;
     display: flex;
+    gap: 10px;
     margin: 15px;
 }
 .footer{
@@ -250,14 +285,9 @@ nav li a{
     border: 0.5px solid #F948B2;
     padding: 0.5%;
     border-radius: 50px;
-    color: #FF42A5;
 }
-.h5:hover{
+.type:hover .h5{
     color: #FF42A5;
-}
-.fun-image2 :hover{
-    border: 5px solid #F948B2;
-    border-radius: 22px;
 }
 @media screen and (max-width:576px) {
     nav ,
@@ -302,6 +332,9 @@ nav li a{
         width: 100%;
         padding-top: 100px;
     }
+    .play-icon{
+        width: auto;
+    }
     .pi-con{
         text-align: center;
         padding: 0;
@@ -320,11 +353,11 @@ nav li a{
         height: 100%;
     }
     .type{
-        width: fit-content;
+        width: 200px;
     }
     .type-game{
-        display: grid;
-        grid-template-columns: repeat(3, 0.4fr);
+        display: flex;
+        flex-wrap: wrap;
     }
     .item{
         display: grid;
@@ -335,8 +368,8 @@ nav li a{
         gap: 50px;
     }
     .end{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
     }
     .end2{
